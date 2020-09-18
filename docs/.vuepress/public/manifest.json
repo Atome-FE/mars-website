@@ -1,0 +1,16 @@
+{
+  "name": "Mars",
+  "short_name": "Mars",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0899fe",
+  "description": "测试",
+  "theme_color": "blue",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}
