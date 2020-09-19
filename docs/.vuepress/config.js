@@ -1,6 +1,7 @@
 module.exports = {
   title: "Mars",
   description: "测试",
+  base: '/mars-website/',
   head: [
     ["link", { rel: "icon", href: "/images/logo.png" }],
   ],
