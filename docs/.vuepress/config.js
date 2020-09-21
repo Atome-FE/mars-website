@@ -17,6 +17,7 @@ module.exports = {
           { text: "测试用例", link: "/sources/test-case" },
           { text: "服务监控", link: "/sources/服务监控" },
           { text: "权限管理", link: "/sources/权限管理和分享" },
+          { text: "覆盖率统计", link: "/sources/覆盖率统计" }
         ],
       },
       { text: "Github", link: "https://github.com/Atome-FE/Mars" },
