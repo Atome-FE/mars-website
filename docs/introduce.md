@@ -1,13 +1,19 @@
 # 简介
 
 ## 什么是Mars系统
-TODO
+
+Mars系统是Advance.ai公司Atome业务线团队开发的测试平台，该平台包括用例平台、数据平台、mock工厂、环境服务器监控、代码覆盖率统计等功能，用于提升测试人员和开发人员的工作效率。
+
+## 系统介绍图
+
+![系统介绍图](https://res.cloudinary.com/dqhbr3uh3/image/upload/v1600502704/mars%E7%B3%BB%E7%BB%9F%E4%BB%8B%E7%BB%8D%E5%9B%BE_b9ev02.png)
 
 ## 开始上手
 
 ``` bash
 git clone git@github.com:Atome-FE/Mars.git
 ```
+
 ### 配置
 
 1、修改server下的，- application-local.yml里的spring > datasource > url 的IP为本机IP
@@ -17,6 +23,7 @@ git clone git@github.com:Atome-FE/Mars.git
 3、安装docker并登录
 
 ### 启动
+
 ```bash
 # 启动前端:
 ./start.sh init-f # 首次启动(包含npm install)
